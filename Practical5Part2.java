@@ -187,8 +187,11 @@ public class Practical5Part2 {
 		return capitalCity;
 	}
 
-	// Takes user choice of heads/tails, simulates tossing a coin and outputs
-	// result.
+	
+	/**
+	 * Takes user choice of heads/tails, simulates tossing a coin and outputs result.
+	 * @param userChoice - heads or tails
+	 */
 	public static void coinFlipper(String userChoice) {
 		// declaring vars and instantiating classes
 		int flipResult;
